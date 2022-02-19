@@ -7,9 +7,7 @@ grey - #95a5a6;
 red - #ee5253
 
 */
-* {
-  border: 2px solid blue;
-}
+
 
 .dinnerText {
   margin: 20px;
@@ -46,7 +44,6 @@ body {
   width: 100%;
   background-size: cover;
 }
-
 
 .boxes {
   display:flex;
@@ -127,17 +124,41 @@ span {
   display:flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  height: 460px;
+  width: 540px;
 }
 
 .box2HolderTitle {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-style: italic;
-  margin-left: 11%;
+  text-align: center;
 }
 
 .box2HolderText {
   font-family: 'Roboto', sans-serif;
-  font-size: 27px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.clearButton {
+  font-family: 'Roboto', sans-serif;
+  height: 45px;
+  width: 100px;
+  margin-left: 250px;
+  background-color: #95a5a6;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 175px;
+  right: 140px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }

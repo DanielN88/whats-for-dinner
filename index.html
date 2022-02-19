@@ -12,15 +12,17 @@
     <section class = "boxes">
       <section class = "box1">
         <h1 class = "box1content" id = "box1title"> What are you looking for?<span>*</span> </h1>
-        <label class = "box1content" id = "sideButton"><input type = "radio" name = "input1">Side</label>
-        <label class = "box1content" id = "mainButton"><input type = "radio" name = "input1">Main Dish</label>
-        <label class = "box1content" id = "dessertButton"><input type = "radio" name = "input1">Dessert</label>
-        <label class = "box1content" id = "entireButton"><input type = "radio" name = "input1">Entire Meal</label>
+        <form>
+        <label class = "box1content"><input type = "radio" name = "input1" value = "side">Side</label>
+        <label class = "box1content"><input type = "radio" name = "input1" value = "main">Main Dish</label>
+        <label class = "box1content"><input type = "radio" name = "input1" value = "dessert">Dessert</label>
+        <label class = "box1content"><input type = "radio" name = "input1" value = "entire">Entire Meal</label>
+      </form>
         <button class = "box1button">LET'S COOK!</button>
       </section>
       <section class = "box2">
-        <img class = "cookingPot" src="assets/cookpot.svg"/>
         <section class = "box2TextFlex">
+         <img class = "cookingPot" src="assets/cookpot.svg"/>
          <p class= "box2HolderTitle hidden">You should make:</p>
          <p class = "box2HolderText hidden">Place Holder Text</p>
          <button class = "clearButton hidden">CLEAR</button>
